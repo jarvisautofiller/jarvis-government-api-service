@@ -34,4 +34,4 @@ ARG SPRING_PROFILES_ACTIVE=dev
 ENV SPRING_PROFILES_ACTIVE=${SPRING_PROFILES_ACTIVE}
 
 # Define the entry point for the application
-ENTRYPOINT ["sh", "-c", "java -Xmx512m -XX:+PrintFlagsFinal -XX:+PrintCommandLineFlags -jar -Dspring.profiles.active=${SPRING_PROFILES_ACTIVE} /app/app.jar --server.port=${PORT:-5050}"]
+ENTRYPOINT ["sh", "-c", "java -Xmx512m -XX:+PrintFlagsFinal -XX:+PrintCommandLineFlags -jar /app/app.jar --server.port=${PORT:-5050}"]
