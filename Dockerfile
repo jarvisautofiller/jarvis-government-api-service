@@ -30,7 +30,7 @@ COPY --from=build /app/build/libs/ipp-0.0.1-SNAPSHOT.jar app.jar
 ENV HOST 0.0.0.0
 EXPOSE 5050
 
-ARG SPRING_PROFILES_ACTIVE=prod
+ARG SPRING_PROFILES_ACTIVE=dev
 ENV SPRING_PROFILES_ACTIVE=${SPRING_PROFILES_ACTIVE}
 
 # Define the entry point for the application
