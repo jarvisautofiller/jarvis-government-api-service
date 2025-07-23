@@ -2,7 +2,8 @@
 INSERT INTO AADHAR_DATA (ID_NUMBER, FIRST_NAME, LAST_NAME, ADDRESS, DOB, GENDER, PHONE_NUMBER)
 VALUES
 ('A123456789', 'Alice', 'Aadhar', '123 Aadhar Street', '1990-01-01', 'Female', '9876543210'),
-('A987654321', 'Bob', 'Aadhar', '456 Aadhar Avenue', '1985-05-15', 'Male', '9123456780');
+('A987654321', 'Bob', 'Aadhar', '456 Aadhar Avenue', '1985-05-15', 'Male', '9123456780'),
+('123', 'Bob', 'Aadhar', '456 Aadhar Avenue', '1985-05-15', 'Male', '9123456781');
 
 -- Sample Passport records
 INSERT INTO PASSPORT_DATA (ID_NUMBER, FIRST_NAME, LAST_NAME, ADDRESS, DOB, GENDER, PHONE_NUMBER, EMAIL)
