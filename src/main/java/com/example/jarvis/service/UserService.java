@@ -6,7 +6,7 @@ import com.example.jarvis.entity.PassportData;
 import java.util.Optional;
 
 public interface UserService {
-    Optional<AadharData> getAadharById(String idNumber);
-    Optional<PassportData> getPassportById(String idNumber);
+    Optional<String> getAadharById(String idNumber);
+    Optional<String> getPassportById(String idNumber);
     Object getUserDataByIdAndType(String idNumber, String idType);
 }
