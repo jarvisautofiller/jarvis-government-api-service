@@ -5,7 +5,7 @@ VALUES
 ('A987654321', 'Bob', 'Aadhar', '456 Aadhar Avenue', '1985-05-15', 'Male', '9123456780'),
 ('752914181921', 'Chandu', 'Jinka', 'Hyderabad', '1998-02-09', 'Male', '9866644487'),
 ('753812108794', 'Phanidhar Sai', 'Marripudi', 'Nizampet, Hyderabad', '1999-04-27', 'Male', '7036183122'),
-('225952253001', 'Sadvika', 'Boddi Reddy', 'Mancherial, Telangana', '1999-10-14', 'Female', '+9704166906'),
+('225952253001', 'Sadvika', 'Boddi Reddy', 'Mancherial, Telangana', '1999-10-14', 'Female', '9704166906'),
 ('896789099898', 'Akshata', 'Shinde', 'Mumbai', '1997-08-06', 'Female', '9821575407'),
 ('777425577892', 'Sushma', 'Ponnaganti', 'Narsingh, Hyderabad', '1997-08-16', 'Female', '9492570337');
 
